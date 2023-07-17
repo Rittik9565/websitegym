@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rittik Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        height: 4544px;
+        background: url('img/img.jpg')
+    }
+
+    .left {
+
+        display: inline-block;
+        border: 2px solid black;
+        position: absolute;
+        left: 84px;
+        top: 22px;
+    }
+
+    .left img {
+        width: 136px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: black;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 88px;
+        font-size: 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(32, 26, 26);
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        padding: 4px 14px;
+        border: 2px solid black;
+        border-radius: 118px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 480px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 6px auto;
+        font-size: 16px;
+
+    }
+
+    .container h2 {
+        text-align: center;
+        color: red;
+    }
+
+    .container button {
+        display: block;
+        width: 115%;
+        margin: auto;
+        color: blueviolet;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Rittik Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About US </a></li>
+                <li> <a href="#"> Fitness Calculator</a></li>
+                <li> <a href="#" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us Now</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym of Faizabad Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        <body>
+    </div>
+</body>
+</html>
